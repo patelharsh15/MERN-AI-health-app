@@ -1,0 +1,1 @@
+export const resetPassword = (email) => axios.post(`${API_URL}/reset-password`, { email });
